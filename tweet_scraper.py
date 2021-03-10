@@ -110,7 +110,9 @@ def scrapeTweets(search_key, number_of_requests, date_until) -> 'Dataframe':
             continue
     return tweets_df
 
-
+def scrapeDailyTweets(search_query, day):
+    """downloads all tweets per a specific search_query for a single day"""
+    pass
 
 # the main function call
 
